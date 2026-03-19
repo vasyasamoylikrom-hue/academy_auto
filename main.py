@@ -8,3 +8,4 @@ with open(log_file, 'r', encoding="utf-8") as f:
 counter += 1
 with open(log_file, 'w', encoding="utf-8") as f:
     f.write(str(counter))
+    
