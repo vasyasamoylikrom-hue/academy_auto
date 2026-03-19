@@ -2,7 +2,7 @@ name: Deploy to server
 on:           # Триггер
   push:
     branches:
-      - main
+      - test
 jobs:
   deploy:
     runs-on: ubuntu-latest
