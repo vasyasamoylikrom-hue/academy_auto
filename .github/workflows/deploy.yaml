@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code # 1 этап скачать наш коддд
         uses: actions/checkout@v3
       - name: Connect & Deploy
-        uses: appleboy/ssh-actions@v1.0.0
+        uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
