@@ -16,5 +16,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
+            cd /root/academy_auto
             git pull origin main
             python3 main.py
